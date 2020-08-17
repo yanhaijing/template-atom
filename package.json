@@ -1,0 +1,17 @@
+{
+  "name": "language-templatejs",
+  "version": "0.0.0",
+  "description": "syntax hightlight for templatejs",
+  "keywords": [
+    "language",
+    "grammar",
+    "templatejs",
+    "template.js",
+    "template_js"
+  ],
+  "repository": "https://github.com/yanhaijing/template-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

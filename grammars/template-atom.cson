@@ -1,0 +1,46 @@
+# If this is your first time writing a language grammar, check out:
+#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
+
+'scopeName': 'source.templatejs'
+'name': 'templatejs'
+'fileTypes': [
+  'tmpl'
+]
+'patterns': [
+    {
+        "include": "#template"
+    },
+    {
+        "include": "text.html.basic"
+    }
+]
+"repository": {
+    "template": {
+        "patterns": [
+            {
+                "begin": "(<([%#]))(((\\w+)?(:))?(=))?",
+                "end": "(\\2>)",
+                "beginCaptures": {
+                    "1": {
+                        "name": "support.type.templatejs"
+                    },
+                    "5": {
+                        "name": "support.function.templatejs"
+                    },
+                    "6": {
+                        "name": "keyword.control.templatejs"
+                    },
+                    "7": {
+                        "name": "keyword.operator.templatejs"
+                    }
+                },
+                "endCaptures": {
+                    "1": {
+                        "name": "support.type.templatejs"
+                    }
+                },
+                "name": "template.templatejs"
+            }
+        ]
+    }
+}

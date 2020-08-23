@@ -1,14 +1,14 @@
 # [template-atom](https://github.com/yanhaijing/template-atom)
 
-[template.js](https://github.com/yanhaijing/template.js)的atom插件，[点击这里查看](https://atom.io/packages/language-templatejs)
+[template.js](https://github.com/yanhaijing/template.js) plugin for atom，[click here](https://atom.io/packages/language-templatejs) to install
 
 ## Features
 
-- 语法高亮
+- Syntax highlight
 
-支持templatejs的模板语法高亮
+Support syntax highlight for template.js
 
-下面示例如下
+Source code example
 
 ```
 <h2>我的待办</h2>
@@ -28,7 +28,7 @@
 <a href="#" class="btn btn-dark add-todo">新增</a>
 ```
 
-高亮后的效果
+Highlighting effect
 
 ![](./img/demo.png)
 
@@ -38,4 +38,14 @@
 ## TODO
 [TODO.md](https://github.com/yanhaijing/template-atom/blob/master/TODO.md)
 
-**Enjoy!**
+## Contributor guide
+安装完atom，会自动安装一个全局命令apm(mac是这样的)
+
+```bash
+apm publish # 发布包
+apm publish [major|minor|patch] # 发布指定版本的包
+```
+
+## Reference
+
+- [如何从0开发一个Atom组件](https://segmentfault.com/a/1190000014322520)
